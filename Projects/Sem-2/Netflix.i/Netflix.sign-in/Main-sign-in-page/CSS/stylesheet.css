@@ -13,7 +13,7 @@
 .first-part {
     position: relative;
     /* border: 2px solid blue; */
-    background: url(/Projects/Sem-2/Netflix.i/Netflix.sign-in/);
+    background-image: url(/Projects/Sem-2/Netflix.i/Netflix.sign-in/Main-sign-in-page/assets/bg-img.jpg);
     /*-- background-repeat: no-repeat; */
     background-size: cover;
     /* overflow: hidden; */
