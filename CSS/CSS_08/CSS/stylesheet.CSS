@@ -1,0 +1,11 @@
+ul li{
+    border: 2px solid black;
+    /* list-style-position: inside; */
+    /* list-style-type: georgian; */
+    margin: 10px;
+    padding: 10px;
+    /* list-style: none; */
+    /* list-style-image: url(/Project2/image/bg.jpg); */
+    list-style: disc inside;
+    
+}

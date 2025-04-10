@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}.d {
+    display: inline-block;
+    padding: 20px;  
+    /* margin: 0; */
+    border: 2px solid black;
+    
+}
+.s {
+    border: 2px solid black;
+    display: block;
+    padding: 70px;  
+    margin: 2px;
+}
+.s1{
+    /* display: none; */
+    visibility: hidden;
+}

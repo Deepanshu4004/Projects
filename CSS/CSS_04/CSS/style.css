@@ -1,0 +1,48 @@
+.h1 {
+    color: #000;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.purple {
+    color: purple;
+}
+
+#green {
+    color: pink;
+}
+
+/*--------------------------------------------------------*/
+[data-x="a"] {
+    /*jaha Data-x KI VALUE a h wha ye apply kro*/
+    color: red;
+    /*it have high priority than .class selector according to the rule.*/
+}
+
+/*Inline Style>ID Selector>Class Selector or Attribute Selector>Element Selector>Universel Selector*/
+[data-x="b"] {
+    color: green;
+}
+
+/*--------------------------------------------------------*/
+.green {
+    color: blue !important;
+}
+
+/*!important ka mtlb h jha ye use hota h use sbse jada importance de kr rulek according apply kr diya jata  h and ye inline style ko bhi over write krdeta h*/
+.green {
+    color: brown;
+}
+
+/*--------------------------------------------------------*/
+/*Calculating specifier-------------*/
+h1.jii {
+    color: yellowgreen;
+}
+
+/*h1.jii have more points because it have a class and element selector (h1 and .jii) */
+.jii {
+    color: black;
+}

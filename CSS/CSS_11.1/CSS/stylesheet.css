@@ -1,0 +1,87 @@
+.body{
+    position: absolute;
+    overflow: hidden;
+    top: center; 
+    left: 10px;
+    left: 20px;
+    /* transform: translate(-50%, -50%); */
+}
+.card{
+    position: relative;
+    /* margin: auto; */
+    border: 1px solid rgb(252, 248, 248);
+    background-color: blanchedalmond;
+    width: 298px;
+    height: 420px;
+    border-radius: 15px;
+    top: 50px;
+    left: 200px;
+    box-shadow: 5px 10px 59px ;
+}
+.image{
+    position: absolute;
+    /* margin: auto; */
+    overflow: hidden;
+    height: 133px;
+    top: 5.5px;
+    left: 8px;
+    border: 1px solid rgb(245, 243, 243);
+    border-radius: 15px;
+}
+.nature{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: rgb(92, 90, 90);
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    top: 180px;
+    left: 210px;
+}
+.n{
+    position: relative;
+    top: -10px;
+}
+
+.lake{
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: rgb(92, 90, 90);
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    top: 180px;
+    left: 270px;
+}
+.l{
+    position: relative;
+    top: -10px;
+    font-size: bold;
+}
+.head{
+    position: relative;
+    top:-205px;
+    left: 220px;
+}
+.para{
+    position:relative;
+    padding-right: 950px;
+    /* overflow-y: scroll; */
+    top: -210px;
+    left: 220px;
+    /* right: -200px; */
+}
+.read{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    top: -194px;
+    left: 287px;
+    background-color: skyblue;
+    color: rgb(26, 49, 148);
+}

@@ -1,0 +1,46 @@
+
+        /*emelent selector*/
+        div,p.red{
+            background-color: pink;
+            color: black;
+        }
+        li#blue{
+            background-color: green;
+        }
+        p#blue12{
+            background-color: aqua;
+        }
+       /* child selector*/
+        article > p{
+            background-color: chocolate;
+            color: black;
+        }
+        /*Descendant selector*/
+        div p{
+            background-color: yellow;
+            color: red;
+        }
+        /*universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo Selector */
+        a:visited{
+            background-color: white;
+            color:rgb(255, 0, 55);
+        }
+        a:link{
+            background-color: white;
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: rgb(53, 49, 49);
+        }
+        /* p:first-child{
+            background-color: black;
+            color: white;
+        } */

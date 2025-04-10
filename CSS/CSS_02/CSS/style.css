@@ -1,0 +1,30 @@
+.box {
+    margin: 10px; 
+    padding: 10px; 
+}
+
+.red {
+   background-color: orange;
+   border: 2px solid red;
+    height: 20px; 
+    width: 200px; 
+   margin: 30px;
+   padding: 10px;
+     box-sizing: border-box;  
+}
+
+.blue {
+   background-color: rgb(240, 240, 245);
+   border: 2px solid black;
+    height: 10px; 
+    width: 200px; 
+   margin: 20px;
+   padding: 10px;
+    box-sizing: border-box; 
+}
+
+.green {
+   background-color: green;
+   margin: 10px;
+   padding: 10px;
+}

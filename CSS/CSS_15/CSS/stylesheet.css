@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+    /* align-content: center; */
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.list{
+    /* margin: 4px; */
+    border: 2px solid rgb(22, 22, 22);
+    width: 92px;
+    height: 92px;
+    background: rgb(238, 54, 238);
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}

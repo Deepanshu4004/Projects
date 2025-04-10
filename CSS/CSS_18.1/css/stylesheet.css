@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Fix */
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+/* Navbar Fix */
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav {
+    font-size: 18px;
+}
+
+/* Hero Section */
+.content {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.h1 {
+    font-size: 48px;
+    font-weight: 100;
+    display: block;
+}
+
+.h1 img {
+    vertical-align: middle;
+}
+
+/* Paragraph */
+h3 {
+    font-size: 22px;
+    font-weight: 410;
+    margin-top: 10px;
+}
+
+/* Download Button Fix */
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 182, 209);
+    border-radius: 5px;
+    width: 300px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(0, 182, 209);
+    margin: 20px auto;
+    cursor: pointer;
+}

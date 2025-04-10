@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    border: 2px solid  black;
+    grid-template-columns: [phela]100px [dusra]100px [teesra]100px [chotha]100px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+.item-4{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.item-1{
+    grid-row: 1/2;
+    grid-column: phela/chotha;
+}

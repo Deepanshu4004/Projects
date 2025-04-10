@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: rgb(82, 69, 69);
+    --seccolor:rgba(199, 184, 184, 0.678);
+}
+.list{
+    background-color: var(--color);
+    color: aliceblue;
+    border: 3px solid var(--seccolor);
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 30px;
+}
+.container{
+    background-color: var(--seccolor);
+}

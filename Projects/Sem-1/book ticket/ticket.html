@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket-book a trip of bali</title>
+    <link rel="stylesheet" href="ticket.css">
+</head>
+
+<body>
+    <h1>Bookat</h1>
+    <form action="/submit.php">
+    <div><label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+    </div>
+    <br>
+    <div>
+        <label for="phone">Phone number</label>
+        <input id="phone" type="tel" placeholder="Enter your phone number" required pattern="[0-9]{10}"title="Please enter a valid 10-digit phone number">
+        <!--<label for="phone">Phone Number</label>
+        <input id="phone" type="tel" placeholder="Enter your phone number" required>-->
+    </div>
+    <br>
+    <div>
+        <label for="age">Age</label>
+        <input id="age" type="number"  placeholder="enter your age" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+    </div>
+    <div>
+        <label for="adress">Address</label>
+        <textarea id="adress" type="adress" placeholder="Enter your address" rows="4" cols="30" required></textarea>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>

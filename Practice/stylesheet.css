@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Netflix Sans", Helvetica, Arial, sans-serif;
+}
+
+header {
+    /* border: 1px solid red; */
+    position: absolute;
+    background: #000;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.center{
+    /* border: 1px solid green; */
+    position: relative;
+    padding-left: 5vw;
+    padding-right: 6vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+.logo {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    border: 1px solid white;
+    height: 25px;
+}
+.head-center-1{
+    /* border: 1px solid white; */
+    display: block;
+}
+nav {
+    margin-left: auto;
+    width: auto;    
+    /* border: 1px solid blue; */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    width: 200px;
+    height: 36px;
+    /* border: 1px solid red; */
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 214);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.list-item-1 {
+    width: 55%;
+    height: auto;
+    border: 0.1rem solid rgb(90, 90, 90);
+}
+
+.list-item-2 {
+    /* border: 0.2rem solid rgb(229, 9, 20); */
+    background-color: rgb(229, 9, 20);
+    height: auto;
+    width: 45%;
+}
+
+.head-center-2{
+    display: none;
+    width: 100%;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+@media(max-width:769px) {
+    header {
+        /* padding-right: 3vw; */
+        gap: 1.5vw;
+    }
+    .center{
+        position: static;
+    }
+    .line{
+        display: none;
+    }
+    .head-center-1{
+        display: none;
+    }
+    .head-center-2{
+        padding-left: 5vw;
+        margin-top: 10px;
+        display: block;
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    ul {
+        width: 180px;
+        height: 34px;
+    }
+}

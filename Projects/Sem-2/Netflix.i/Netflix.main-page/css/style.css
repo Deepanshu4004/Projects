@@ -1,0 +1,540 @@
+* {
+    font-family: "Netflix Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('/Projects/Sem-2/Netflix.i/Netflix.main-page/image/bg2.jpg') center/cover no-repeat;
+}
+
+.container::before {
+    content: "";
+    inset: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    /* Dark overlay */
+}
+
+/* Navbar */
+.navbar {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 130px;
+    position: relative;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    z-index: 1;
+}
+
+.language,
+.signin-btn {
+    color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.language {
+    border: 1px solid gray;
+    background-color: black;
+}
+
+.signin-btn {
+    background-color: red;
+    /* border: none; */
+}
+.signin-btn a{
+    text-decoration: none;
+
+}
+
+.hero {
+    /* border: 1px solid white; */
+    position: relative;
+    text-align: center;
+    /* z-index: 1; */
+    color: white;
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* Form */
+.signup-form {
+    position: relative;
+    margin-top: 20px;
+}
+
+.form-text {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.email-input {
+    margin-top: 5px;
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(20, 16, 16, 0.7);
+}
+
+.submit-btn {
+    margin-top: 5px;
+    padding: 15px 25px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    background: rgba(0, 0, 0, 0.95);
+    position: relative;
+
+}
+
+.container2 {
+    width: 100%;
+    /* height: auto; */
+    border: 1px solid rgb(13,13,13);
+}
+
+.trending-section {
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.heading1,
+.Reasons {
+    color: white;
+    padding-left: 152px;
+    font-weight: 500px;
+    font-size: 25px;
+    /* border: 1px solid white; */
+}
+
+.Reasons {
+    margin-top: 50px;
+    font-size: 20px;
+    /* border: 2px solid green; */
+}
+
+.top10-movie {
+    /* border: 1px solid white; */
+    margin-left: 50px;
+    margin-right: 60px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+.top10-movie {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    /* border: 1px solid white; */
+}
+
+.movie1,
+.movie2,
+.movie3,
+.movie4,
+.movie5 {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie1:hover,
+.movie2:hover,
+.movie3:hover,
+.movie4:hover,
+.movie5:hover {
+    transform: scale(1.1);
+    /* Slight zoom effect */
+}
+
+.cards {
+    padding-top: 20px;
+    display: flex;
+    /* border: 1px solid red; */
+    width: auto;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    border: 1px solid rgb(44, 42, 124);
+    background-color: rgb(44, 42, 124);
+    /*rgb(44, 42, 124) purple*/
+    /*rgb(35, 99, 151) blue*/
+    width: 20vw;
+    height: 47vh;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.card-h1,
+.card-h2,
+.card-h3,
+.card-h4 {
+    /* border: 1px solid white; */
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.para {
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.card-two {
+    margin-left: 15px;
+}
+
+.card-three {
+    margin-left: 15px;
+}
+
+.card-four {
+    margin-left: 15px;
+}
+
+.FAQ-heading {
+    color: white;
+    margin-top: 50px;
+    padding-left: 152px;
+}
+
+.FAQ-1 {
+    position: relative;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    margin-right: 60px;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 10vh;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 500px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* border: 1px solid white; */
+}
+
+
+.FAQ-1:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.FAQ-1-answer {
+    margin-right: 60px;
+    padding-left: 30px;
+    margin-top: 2px;
+    margin-left: 150px;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    font-weight: 500;
+    font-size: 24px;
+    padding: 30px 30px;
+    padding-bottom: 35px;
+    max-height: 235px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+    /* border: 1px solid rgb(241, 16, 16); */
+    /* border-top: 1px solid white; */
+}
+
+.active+.FAQ-1-answer {
+    max-height: 0;
+    /* Jitna content h utna adjust ho jayega */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.FAQ-2 {
+    position: relative;
+    color: white;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    margin-right: 60px;
+    margin-left: 150px;
+    margin-top: 5px;
+    height: 10vh;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 500px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* border: 1px solid white; */
+}
+
+
+.FAQ-2:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.FAQ-2-answer {
+    margin-right: 60px;
+    margin-top: 2px;
+    margin-left: 150px;
+    /* padding-left: 39px;   */
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 30px;
+    padding-bottom: 25px;
+    max-height: 90px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+    /* border: 1px solid rgb(241, 16, 16); */
+    /* border-top: 1px solid white; */
+}
+
+.active+.FAQ-2-answer {
+    max-height: 0;
+    /* Jitna content h utna adjust ho jayega */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.FAQ-3 {
+    position: relative;
+    color: white;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    margin-right: 60px;
+    margin-left: 150px;
+    margin-top: 5px;
+    height: 10vh;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 500px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* border: 1px solid white; */
+}
+
+.FAQ-3:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.FAQ-3-answer {
+    margin-right: 60px;
+    margin-top: 2px;
+    margin-left: 150px;
+    /* padding-left: 39px;   */
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 30px;
+    padding-bottom: 25px;
+    max-height: 185px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+    /* border: 1px solid rgb(241, 16, 16); */
+}
+
+.active+.FAQ-3-answer {
+    max-height: 0;
+    /* Jitna content h utna adjust ho jayega */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.FAQ-4 {
+    position: relative;
+    color: white;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    margin-right: 60px;
+    margin-left: 150px;
+    margin-top: 5px;
+    height: 10vh;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 500px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* border: 1px solid white; */
+}
+
+.FAQ-4:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.FAQ-4-answer {
+    margin-right: 60px;
+    margin-top: 2px;
+    margin-left: 150px;
+    align-content: center;
+    background-color: rgb(45, 45, 45);
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px 30px;
+    padding-bottom: 25px;
+    max-height: 185px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+    /* border: 1px solid rgb(241, 16, 16); */
+}
+
+.active+.FAQ-4-answer {
+    max-height: 0;
+    /* Jitna content h utna adjust ho jayega */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.plus-1 {
+    margin-left: 850px;
+}
+
+.plus-2 {
+    margin-left: 707.5px;
+}
+
+.plus-3 {
+    margin-left: 807px;
+}
+
+.plus-4 {
+    margin-left: 835px;
+}
+
+.final-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 17px;
+}
+
+.final-form-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 10px;
+}
+
+.final-email-input {
+    position: relative;
+    margin-top: 5px;
+    padding: 15px;
+    width: 515px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(20, 16, 16, 0.7);
+}
+
+.final-submit-btn {
+    position: relative;
+    margin-top: 5px;
+    padding: 15px 25px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    height: 80vh;
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid white; */
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.Phone-number {
+    /* position: absolute; */
+    /* border: 1px solid white; */
+    padding-left: 150px;
+    margin-top: 5vw;
+}
+
+.call,
+.number {
+    color: rgb(175, 175, 175);
+}
+
+.container-3{
+    /* border: 1px solid blue; */
+    height: auto; 
+    padding-top: 40px;
+    padding-left: 150px;
+} 
+.list-w{
+    flex-wrap: wrap;
+    display: flex;
+    width: 73vw;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+.links{
+    padding:10px;
+    width:18vw;
+}
+.link{
+    color: rgb(175, 175, 175);
+}
+.final-language{
+    border: 1px solid white;
+    height: auto;
+    width: 100px;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-left: 150px; 
+    margin-top: 50px;
+}
+.last-line{
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+    margin-left: 150px; 
+    margin-top: 35px;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    perspective: 500px; /* Depth effect ke liye */
+}
+
+/* Ball */
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 1s ease-out infinite;
+}
+
+/* Bounce Animation (Top View) */
+@keyframes bounce {
+    0% { transform: translateZ(0) scale(1); }   /* Neeche hai (normal size) */
+    50% { transform: translateZ(-100px) scale(1.5); } /* Upar jayegi aur zoom hoga */
+    100% { transform: translateZ(0) scale(1); } /* Wapas neeche */
+}

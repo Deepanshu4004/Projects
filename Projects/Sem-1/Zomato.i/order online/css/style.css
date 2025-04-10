@@ -1,0 +1,153 @@
+/* For the Inspiration for your first order section */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(239,79,95);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header img.zomato {
+    padding: 10px;
+    margin: 4px;
+    width: 150px;
+    height: 90px;
+    /* left: 0; */
+}
+
+header .search {
+   padding: 10px 15px;
+    position: relative;
+    top: 20px;
+    left: 300px;
+    height: 36px;
+    width: 250px;
+    border-radius: 25px;
+    border: 1px solid lightgrey;
+    outline: none;
+    box-shadow: 0px 0px 20px -18px;
+}
+.h{
+    padding-right: 0px;
+    margin-right: 3px;
+    position: relative;
+    top: 38px;
+    right: 60px;
+}
+.q{
+    color: white;
+    position: relative;
+    top: 18px;
+    right: 5px;
+}
+.i{
+    position: absolute;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #e20909;
+}
+
+main {
+    padding: 20px;
+}
+
+section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0e0d0d;
+    font-weight: bold;
+    text-align: left;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section div a {
+    text-decoration: none;
+}
+
+section div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+section div img:hover {
+    transform: scale(1.1);
+}
+
+section div h1 {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+
+section div h1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+section div h1 a:hover {
+    color: #d32f2f;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+    text-align: center;
+}
+.restaurant {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+}
+
+.restaurant img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.restaurant h1 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}

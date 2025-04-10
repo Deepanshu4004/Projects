@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  background-color: rgb(27, 26, 26); /* Optional: background color for the body */
+}
+
+.form-container {
+  width: 350px; /* Set the width of the form */
+  height: 500px; /* Set the height of the form */
+  background-color: #181717; /* Background color */
+  box-shadow: rgba(34, 33, 33, 0.35) 0px 5px 15px; /* Shadow effect */
+  border-radius: 10px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
+  padding: 20px 30px; /* Padding inside the form */
+}
+
+.title {
+  text-align: center; /* Center the title text */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font settings */
+  margin: 10px 0 30px 0; /* Margin for spacing */
+  font-size: 28px; /* Font size */
+  font-weight: 800; /* Font weight */
+  color: rgb(12, 236, 31); /* Title color changed to white */
+}
+
+.form {
+  width: 100%; /* Full width */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Column layout */
+  gap: 9px; /* Space between form elements */
+  margin-bottom: 15px; /*Bottom margin*/
+}
+
+.input {
+  border-radius: 20px; /* Rounded corners */
+  border: 1px solid #f7f3f3; /* Border color */
+  outline: 0 !important; /* Remove default outline */
+  box-sizing: border-box; /* Include padding and borders in width/height */
+  padding: 12px 15px; /* Padding for input */
+  /* margin: 2px; */
+}
+
+/* Change the placeholder color to black */
+.input::placeholder {
+  color: black;
+  /* margin: 2px; */
+}
+
+.page-link {
+  text-decoration: underline; /* Underline text */
+  margin: 0; /* No margin */
+  text-align: end; /* Align text to the end */
+  color: #797676; /* Text color */
+  text-decoration-color: #7c7b7b; /* Decoration color */
+}
+
+.page-link-label {
+  cursor: pointer; /* Pointer cursor */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font settings */
+  font-size: 9px; /* Font size */
+  font-weight: 700; /* Font weight */
+}
+
+.page-link-label:hover {
+  color: #1d1c1c; /* Change color on hover */
+}
+
+.form-btn {
+  padding: 10px 15px; /* Padding for button */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font settings */
+  border-radius: 20px; /* Rounded corners */
+  border: 0 !important; /* Remove border */
+  outline: 0 !important; /* Remove outline */
+  background: teal; /* Button background color */
+  color: rgb(243, 236, 236); /* Button text color */
+  cursor: pointer; /* Pointer cursor */
+  box-shadow: rgba(201, 195, 195, 0.24) 0px 3px 8px; /* Shadow effect */
+}
+
+.form-btn:active {
+  box-shadow: none; /* Remove shadow on click */
+}
+
+.sign-up-label {
+  margin: 0; /* No margin */
+  font-size: 10px; /* Font size */
+  color: #747474; /* Text color */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font settings */
+}
+
+.sign-up-link {
+  margin-left: 1px; /* Left margin */
+  font-size: 11px; /* Font size */
+  text-decoration: underline; /* Underline text */
+  text-decoration-color: teal; /* Decoration color */
+  color: teal; /* Text color */
+  cursor: pointer; /* Pointer cursor */
+  font-weight: 800; /* Font weight */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font settings */
+}
+
+.buttons-container {
+  width: 100%; /* Full width */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Column layout */
+  justify-content: flex-start; /* Align items to the start */
+  margin-top: 20px; /* Top margin */
+  gap: 15px; /* Space between buttons */
+}
+
+.apple-login-button,
+.google-login-button {
+  border-radius: 20px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and borders in width/height */
+  padding: 10px 15px; /* Padding for buttons */
+  box-shadow: rgba(24, 23, 23, 0.16) 0px 10px 36px 0px,
+        rgba(31, 30, 30, 0.06) 0px 0px 0px 1px; /* Shadow effect */
+  cursor: pointer; /* Pointer cursor */
+  display: flex; /* Flex container */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items vertically */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Font settings */
+  font-size: 11px; /* Font size */
+  gap: 5px; /* Space between icons and text */
+}
+
+.apple-login-button {
+  background-color: #161616; /* Black background for Apple button */
+  color: #e2d6d6; /* White text */
+  border: 2px solid #eee9e9; /* Black border */
+}
+
+.google-login-button {
+  border: 2px solid #f7f0f0; /* Gray border */
+}
+
+.apple-icon,
+.google-icon {
+  font-size: 18px; /* Font size for icons */
+  margin-bottom: 1px; /* Bottom margin for icons */
+}

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vw;
+    width: 8vw;
+    margin-top: 10px;
+    border: 1px solid rgb(252, 4, 4);
+    border-radius: 10px;
+    background-color: #fd0404;
+    /* animation-name: hello; */
+    /* animation-duration: 2s; */
+    /* animation-timing-function: steps(3); */
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: 1s; */
+    /* animation-direction:alternate; */
+    /* animation-play-state: running; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: hello 5s 1s infinite alternate, hello2 5s 1s infinite alternate;
+}
+
+@keyframes hello {
+    from {}
+
+    to {
+        border-color: rgb(0, 255, 213);
+        background-color: rgb(0, 255, 213);
+        transform: translatex(400px);
+    }
+}
+
+@keyframes hello2 {
+    0% {
+        border-radius: 0%
+    }
+
+    100% {
+        border-radius: 100%
+    }
+
+}

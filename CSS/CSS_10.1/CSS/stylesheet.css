@@ -1,0 +1,8 @@
+p{
+    background-color: blue;
+    color: white;
+}
+div p:nth-child(5){
+    background-color: yellow;
+    color: red;
+}

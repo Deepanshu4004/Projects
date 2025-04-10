@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    color: red;
+    position: fixed;
+    border: 1px solid black;
+    width: 10vw;
+    height: 100vh;
+    background-color: black;
+    transform: translateX(0vw);
+    left: 0;
+    top: 0;
+    padding: 0;
+    transform: left 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.hover-area{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100vh;
+    background-color: transparent;
+}
+.hover-area:hover+.sidebar{
+    left: 0;
+    opacity: 1;
+    /* background-color: black; */
+}

@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.t {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 30px;
+    /* text-decoration:underline; */
+    /* text-decoration-color:black; */
+}
+
+
+.wel {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.per {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+.hii {
+    border: 2px solid black;
+    width: 400px;
+    background: rgba(0, 128, 0, 0.568);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: keep-all;
+    letter-spacing: 0px;
+    /* color: red; */
+    /* border-radius:8px element ke corners gol (rounded) ho jayenge */
+    border-top-left-radius: 8px; /* element ke upar-left corner ko 8 pixels ka rounded shape diya jayega.*/
+    border-bottom-right-radius: 8px;
+    border-bottom: 2px solid red;     /*only border ki bottom line ka color change or waki modification hongi*/
+    border-left: 2px solid rgba(214, 6, 162, 0.938);
+    border-right: 2px solid green;
+}
+.hii2{
+    border:2px  /*border kitna mota hoga*/solid black /*color of a border*/;
+    width: 400px;       /*width (chaudai)*/
+    background: rgba(240, 13, 13, 0.555);
+    text-overflow: ellipsis; /*jo text container k bhar  flow  ho rha h use hide krde*/
+    overflow: hidden;      /* extra content ko chhupa diya jayega*/
+    /* word-break: break-all;    ek word container ki width me fit nahi ho raha, to us word ko kisi bhi jagah tod diya jayega */
+    border-radius:12px    /* element ke corners gol (rounded) ho jayenge,*/
+}

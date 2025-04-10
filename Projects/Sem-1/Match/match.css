@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    background-color: #181818; /* Dark background */
+    color: #e0e0e0; /* Light grey text */
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff8c00; /* Highlighted color for the title */
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    max-width: 600px; /* Keep the table width responsive */
+    border-collapse: collapse; /* Remove default border spacing */
+    margin-top: 20px;
+    background-color: #2a2a2a; /* Dark background for the table */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure rounded corners apply to the whole table */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+/* Header row styles */
+thead tr {
+    background-color: #333333; /* Darker background for header */
+}
+
+th {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff8c00; /* Header text color */
+    padding: 15px 10px;
+    text-align: left;
+    border-bottom: 2px solid #444444;
+}
+
+/* Body rows styles */
+tbody tr {
+    border-bottom: 1px solid #444444; /* Subtle line between rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #3a3a3a; /* Slightly lighter row for contrast */
+}
+
+td {
+    padding: 12px 10px;
+    font-size: 0.95rem;
+    color: #e0e0e0;
+}
+
+tbody tr:hover {
+    background-color: #555555; /* Row highlight on hover */
+    transition: background-color 0.2s ease-in;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    table, th, td {
+        font-size: 0.85rem; /* Smaller font size on small screens */
+    }
+}

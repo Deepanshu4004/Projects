@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c1{
+    /* border: 2px solid black; */
+    float: left;
+}
+div img{
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+}
+.c2{
+    clear: right;
+    margin-top: 0px;
+    border: 2px solid black;
+    /* border-radius: 15px; */
+}
+.c3{
+    margin-top: 1px;
+    border: 2px solid black;
+}

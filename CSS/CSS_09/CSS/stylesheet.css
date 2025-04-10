@@ -1,0 +1,12 @@
+div p{
+    /* overflow: scroll; */
+    /* overflow: clip; */
+    overflow-y: scroll;
+    overflow-x: auto;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    width: 29vw;    
+    height: 10vh;
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+}
